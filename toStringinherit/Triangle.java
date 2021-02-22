@@ -10,6 +10,11 @@ public class Triangle extends Shape {
         this.m_b = m_b;
         this.m_c = m_c;
     }
+    
+    public double getHekef()
+    {
+        return m_a + m_b + m_c;
+    }
 
     @Override
     public String toString() {
@@ -17,6 +22,7 @@ public class Triangle extends Shape {
                 "m_a=" + m_a +
                 ", m_b=" + m_b +
                 ", m_c=" + m_c +
+                ", hekef = " + getHekef() +
                 //", m_name='" + m_name + '\'' +
                 "} "+
                 super.toString();
