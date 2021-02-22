@@ -13,7 +13,7 @@ public class TriangleWithCircle extends Triangle{
     public String toString() {
         return "TriangleWithCircle{" +
                 "m_radius=" + m_radius +
-                "'}' "+
+                "} "+
                 super.toString();
     }
 }
