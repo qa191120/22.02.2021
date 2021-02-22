@@ -1,0 +1,28 @@
+create base class:
+MobilePhone 
+# color
+# size
+@ToString
+
+Android extends MobilePhone 
+# andoird_os
++ getAndroidOs ()
+@Tostring
+
+Iphone extends MobilePhone 
+# ios_version
++ getIphoneOs ()
+@Tostring
+
+Lumia extends MobilePhone 
+# ms_version
++ getMsOs ()
+@Tostring
+
+Main:
+create 3 types of phones 
+put all of them in an array of MobilePhones
+create function PrintPhoneData( MobilePhone m )
+... check which type of phone is it (using instanceof)
+... make the casting to the specific type
+... now call the specific method
